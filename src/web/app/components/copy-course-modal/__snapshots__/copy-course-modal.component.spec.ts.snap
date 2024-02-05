@@ -65,8 +65,19 @@ exports[`CopyCourseModalComponent should snap when copying from other sessions 1
             id="copy-course-id"
             maxlength="64"
             placeholder="e.g. CS3215-2013Semester1"
+            required=""
             type="text"
           />
+          <div
+            class="invalid-field"
+            hidden=""
+          >
+            <i
+              aria-hidden="true"
+              class="fa fa-exclamation-circle"
+            />
+             The field Course ID should not be empty.
+          </div>
           <span>
             64 characters left
           </span>
@@ -82,8 +93,19 @@ exports[`CopyCourseModalComponent should snap when copying from other sessions 1
             id="copy-course-name"
             maxlength="80"
             placeholder="e.g. Software Engineering"
+            required=""
             type="text"
           />
+          <div
+            class="invalid-field"
+            hidden=""
+          >
+            <i
+              aria-hidden="true"
+              class="fa fa-exclamation-circle"
+            />
+             The field Course Name should not be empty.
+          </div>
           <span>
             80 characters left
           </span>
